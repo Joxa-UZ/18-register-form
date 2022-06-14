@@ -1,0 +1,256 @@
+/* actor-regular - latin */
+@font-face {
+    font-family: "Actor";
+    font-weight: 400;
+    src: url("../fonts/actor-v17-latin-regular.woff2") format("woff2"),
+        url("../fonts/actor-v17-latin-regular.woff") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    background-color: #F2F2F2;
+    padding-top: 77px;
+    padding-right: 60px;
+    padding-bottom: 77px;
+    padding-left: 60px;
+}
+
+.container {
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.register {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-start {
+    width: 276px;
+    padding-top: 60px;
+    padding-bottom: 57px;
+    background-color: #FFD500;
+    background-repeat: no-repeat;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+
+}
+
+.register-finish {
+    padding-top: 70px;
+    height: 446px;
+    padding-right: 72px;
+    padding-bottom: 54px;
+    padding-left: 72px;
+    background-color: #fff;
+    border-radius: 0 21.25px 21.25px 0;
+}
+
+.registerinfo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.registerinfo::before {
+    padding-bottom: 56px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/hero.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+
+.hero-theme {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.hero-text-box {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 175px;
+}
+
+.hero-text {
+    margin: 0;
+    font-family: "Actor";
+    text-align: center;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #383838;
+
+}
+
+.hero-text-two {
+    display: block;
+    justify-content: center;
+    margin-bottom: 38px;
+}
+
+
+.name-box {
+    margin-bottom: 18px;
+}
+
+.gender-box {
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.user-gender {
+    display: flex;
+    align-items: center;
+}
+
+.user-choose-gender {
+    display: flex;
+    align-items: center;
+}
+
+label {
+    width: 40px;
+    font-family: "Actor";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.4089px;
+    color: #373D40;
+}
+
+.visually-hidden {
+    width: 10px;
+}
+
+label:nth-child(3) {
+    padding-right: 10px;
+}
+
+input {
+    width: 192px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+
+    font-family: "Actor";
+    font-weight: 400;
+    font-size: 7.4089px;
+    line-height: 9px;
+    align-items: flex-end;
+    color: #373D40;
+
+    background: rgba(245, 248, 249, 0.3);
+    border: 0.586985px solid #CAD7DD;
+    border-radius: 2.64604px;
+}
+
+.icon {
+    font-family: "Actor";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.4089px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #B1BFCD;
+}
+
+.box {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 260px;
+}
+
+.id-box {
+    margin-bottom: 31px;
+}
+
+.box>p {
+    font-family: "Actor";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.4089px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #373D40;
+}
+
+.member {
+    padding: 0;
+    margin: 0;
+}
+
+.member-box {
+    margin-bottom: 41px;
+}
+
+.gold-flex {
+    display: flex;
+    align-items: center;
+}
+
+.membership-box {
+    width: 190px;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+}
+
+.cancel-btn {
+    margin-right: 10px;
+    font-family: "Actor";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #373D40;
+
+    width: 79.35px;
+    height: 26.48px;
+    border: none;
+    background: #F5F8F9;
+    border-radius: 2.64604px;
+}
+
+.save-btn {
+    font-family: "Actor";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7.4089px;
+    line-height: 9px;
+    color: #FFFFFF;
+
+    width: 79.35px;
+    height: 26.48px;
+
+    border: none;
+    background: #60E6C5;
+    border-radius: 2.64604px;
+}
